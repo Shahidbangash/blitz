@@ -1,0 +1,189 @@
+html,
+body {
+    font-family: "Helvetica Neue", Helvitica, sans-serif;
+    font-size: 16px;
+    color: #474747;
+}
+
+.blog-header {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.paraghraph-styling {
+    color: #ababab;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.blog-logo {
+    font-family: "Pacifico", cursive;
+    /* display: inline; */
+    /* position: absolute; */
+    bottom: 0;
+    margin-bottom: 0;
+    /* position: absolute; */
+    margin-left: 0;
+    font-size: 3rem;
+    /* margin-right: 1rem; */
+}
+
+.blog-header nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* display: inline; */
+    float: right;
+    text-transform: uppercase;
+}
+
+.blog-header nav li {
+    float: left;
+    /* display: inline; */
+    margin-right: 2rem;
+    color: #bababa;
+}
+
+.blog-header nav li:last-child {
+    margin-right: 0;
+}
+
+.blog-header nav em {
+    color: black;
+    margin-top: 8px;
+    display: block;
+}
+
+
+/* About us Section */
+
+
+/* .about-us h2 {
+    font-size: 24px;
+} */
+
+.test-logo {
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+    height: 20px;
+    background: url(/images/2014-12-10_00-35-38__pattern.png);
+    /* background-size: cover; */
+}
+
+
+/* Card section */
+
+.card-section {
+    /* width: 30%; */
+    position: relative;
+}
+
+.card-internal {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+
+.card-internal:last-child {
+    margin-right: 0;
+}
+
+
+/* Picture Article */
+
+.picture-section {
+    display: flex;
+}
+
+.picture-section article {
+    /* width: 300px; */
+    border: 1px solid black;
+    margin-right: 20px;
+    flex: 1;
+    /* position: relative; */
+    /* display: flex; */
+}
+
+.picture-section article:last-child {
+    margin-right: 0;
+}
+
+.picture-section header {
+    margin-top: 16px;
+    position: relative;
+}
+
+.picture-section p {
+    margin: 0 20px;
+}
+
+.picture-section header>h2 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: inline;
+    /* text-align: start; */
+}
+
+.picture-section small {
+    /* te */
+    margin-right: 20px;
+    /* justify-content: end; */
+    /* margin-left: auto; */
+    /* text-align: right; */
+    position: absolute;
+    right: 0;
+    display: inline;
+    /* padding-bottom: 0; */
+    /* text-align: end; */
+    /* align-content: ; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* float: right; */
+}
+
+.picture-section .occupation {
+    display: block;
+    margin-top: 8;
+    color: #a2a1a1;
+    font-size: 12px;
+}
+
+
+/* Footer Section */
+
+.about-footer:before {
+    /* background: image(); */
+    /* background: image(/images/2014-12-10_00-35-38__pattern.png); */
+    /* height: 20px; */
+    height: 20px;
+    background: url(/images/2014-12-10_00-35-38__pattern.png);
+    /* display: flex; */
+    /* position: relative; */
+}
+
+footer {
+    background-color: #f7f7f7;
+    height: 70px;
+}
+
+footer::before {
+    height: 20px;
+    background: url(/images/pattern.jpg);
+}
+
+.about-footer small {
+    /* flex: 1; */
+    /* margin: 50%; */
+    float: left;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.about-footer small:last-child {
+    /* position: absolute; */
+    /* flex: auto; */
+    float: right;
+    margin-right: 0;
+    /* ali right: 0; */
+}

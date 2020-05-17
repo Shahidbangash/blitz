@@ -1,0 +1,225 @@
+body,
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Helvetica Neue", Helvitica, sans-serif;
+    font-size: 16px;
+    color: #474747;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+    font-family: "Economia", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: 0 0; */
+}
+
+p {
+    padding: 0.5em 0;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fixed-width {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.fix-margin {
+    margin-bottom: 3rem;
+}
+
+
+/* Header */
+
+.list-emp em {
+    color: aliceblue;
+}
+
+.page-header {
+    /* border-top: 10px solid green; */
+    padding-bottom: 2em;
+}
+
+.page-header>div {
+    /* border: 1px dashed red; */
+    position: relative;
+}
+
+.page-header .logo {
+    font-family: "Pacifico", cursive;
+    font-size: 3.5em;
+    /* position: absolute; */
+    /* margin-left: 0; */
+    /* margin-top: 3rem; */
+    bottom: 0;
+    /* margin-bottom: 0; */
+}
+
+.page-header nav li {
+    margin-right: 10px;
+    /* font-style: italic; */
+    text-transform: uppercase;
+}
+
+.page-header nav li:last-child {
+    margin-right: 0;
+}
+
+.page-header nav li em {
+    display: block;
+    color: #474747;
+    /* margin-top: 3rem; */
+    font-size: 1.6rem;
+}
+
+
+/* Header ends here */
+
+
+/* MAin Visual */
+
+
+/* Articles  */
+
+.card .card-header i {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* float: left; */
+    /* width: 25%; */
+}
+
+.card-header {
+    height: 150px;
+}
+
+.card-header h2 {
+    /* display: inline-block; */
+    /* justify-content: start; */
+    text-align: center;
+    /* text-align: justify; */
+    margin-bottom: 10px;
+    /* font-size: 16px; */
+    /* float: left; */
+    /* width: 75%; */
+    /* font-weight: 1000; */
+}
+
+.card .card-body,
+.card-footer {
+    text-align: center;
+    /* justify-content: left; */
+}
+
+.fixed-mar {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.articles i {
+    /* float: left; */
+    /* margin-right: 10px; */
+    /* width: 25%; */
+}
+
+.articles a {
+    /* float: left; */
+    /* width: 75%; */
+}
+
+
+/* portfoliosss */
+
+.port {
+    position: relative;
+    /* margin-bottom: 3rem; */
+}
+
+.port .header-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.port h2 {
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    padding: 0.1em;
+}
+
+.port:before {
+    /* position: relative; */
+    content: " ";
+    display: block;
+    height: 30px;
+    background: url("/images/2014-12-10_00-35-38__pattern.png") left top repeat-x;
+    margin-bottom: 2em;
+}
+
+.porfolios {
+    border: 1px solid black;
+}
+
+
+/* Visual ends here */
+
+.claim {
+    float: right;
+    margin-right: 0;
+}
+
+.copyright {
+    float: left;
+    margin-left: 0;
+}
+
+
+/* foot starts here */

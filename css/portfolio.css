@@ -1,0 +1,192 @@
+.top-border {
+    /* height: 20px; */
+    border: 10px solid #ececec;
+}
+
+.portfolio-header {
+    position: relative;
+}
+
+.portfolio-header nav {
+    text-transform: uppercase;
+    float: right;
+}
+
+.portfolio-header div {
+    margin-top: 3rem;
+}
+
+.logo {
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+}
+
+.portfolio-header nav li {
+    color: #a5a5a5;
+    float: left;
+    margin-right: 3em;
+}
+
+.portfolio-header nav li:last-child {
+    margin-right: 0;
+}
+
+
+/* .portfolio-header nav li {} */
+
+.portfolio-header nav li em {
+    color: black;
+    font-weight: bolder;
+    display: block;
+    margin-top: 10px;
+}
+
+
+/* Main visual */
+
+.main-visual {
+    width: 662px;
+    /* margin: 0 auto; */
+}
+
+.side-bar {
+    width: 217px;
+}
+
+.style-paragraph {
+    color: #a5a5a5;
+    width: auto;
+}
+
+.backgroung-image {
+    margin-top: 10px;
+    height: 10px;
+    background: url(/images/2014-12-10_00-35-38__pattern.png);
+}
+
+.category ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* background: ; */
+    /* float: left; */
+}
+
+.category ul li:first-child {
+    color: #a5a5a5;
+}
+
+.category li span {
+    padding: 0px 20px;
+    font-weight: 400;
+}
+
+.category li:active {
+    color: #a5a5a5;
+}
+
+.category li:hover {
+    color: #a5a5a5;
+}
+
+
+/* Pictrure Card section */
+
+.picture-card {
+    border: 1px solid black;
+    width: 210px;
+    margin-top: 28px;
+}
+
+.picture-card h2 {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.picture-card h2 span {
+    display: block;
+    margin-top: 10px;
+    color: #a5a5a5;
+}
+
+.picture-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.picture-card p {
+    /* margin-right: 20px; */
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* Side bar */
+
+.side-bar {
+    width: 217px;
+    margin-top: 100px;
+}
+
+.side-bar div {
+    /* margin-top: 20px; */
+}
+
+.about-card h2 {
+    font-size: 18px;
+    /* font-weight: 600; */
+    margin-bottom: 16px;
+}
+
+.category-card {
+    margin-top: 35px;
+}
+
+.category-card h2 {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.category-card ul {
+    margin: 20px 0 30px 0;
+}
+
+.category-card li {
+    margin-top: 10px;
+}
+
+.twitter-gadget-card {
+    margin-top: 20px;
+}
+
+.twitter-gadget-card h2 {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.twitter-gadget-card p {
+    margin: 20px 0;
+}
+
+.twitter-gadget-card p span {
+    font-weight: 700;
+    color: black;
+}
+
+.twitter-gadget-card p {
+    color: #464646;
+}
+
+.footer-content {
+    color: black;
+    height: 20px;
+}

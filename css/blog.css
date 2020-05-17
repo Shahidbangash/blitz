@@ -1,0 +1,155 @@
+.background-image {
+    background: url(/images/2014-12-10_00-35-38__pattern.png);
+    height: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.blog-header {
+    position: relative;
+    height: 3rem;
+}
+
+.logo {
+    display: inline;
+    margin-left: 10px;
+    position: absolute;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+}
+
+.blog-header nav {
+    float: right;
+    text-transform: uppercase;
+}
+
+.blog-header nav li {
+    color: #8b8b8bd0;
+    float: left;
+    margin-right: 30px;
+    /* display: inline; */
+}
+
+.blog-header nav li:last-child {
+    margin-right: 0;
+}
+
+.blog-header nav li em {
+    display: block;
+    color: black;
+    padding-top: 10px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lef-side {
+    width: 652px;
+}
+
+.right-side {
+    width: 216px;
+}
+
+.blog-section {
+    width: 652px;
+}
+
+.blog-heading {
+    width: inherit;
+}
+
+.blog-heading h2 {
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+.blog-heading p {
+    font-style: italic;
+    color: #8b8b8bd0;
+}
+
+.blog-title {
+    width: inherit;
+}
+
+.blog-title figure {
+    margin-top: 20px;
+}
+
+.blog-content {
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.left-detail {
+    /* margin-left: 0; */
+    width: 120px;
+}
+
+.date-card h2,
+.tags-card h2,
+.comments h2 {
+    font-size: 16px;
+    margin-top: 30px;
+    /* justify-content: left; */
+    /* margin-left: 0; */
+}
+
+.date-card h2 span,
+.tags-card h2 span,
+.comments h2 span {
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #c3c3c3;
+}
+
+.tags-card h2 em {
+    padding: 0 6px;
+}
+
+.right-detail {
+    width: 502px;
+}
+
+.right-detail p {
+    margin-top: 18px;
+}
+
+.about-card {
+    margin-top: 105px;
+    margin-bottom: 30px;
+}
+
+.about-card p {
+    margin-top: 30px;
+}
+
+.categories-card {
+    margin-bottom: 30px;
+}
+
+.categories-card>div {
+    margin: 25px 0;
+}
+
+.categories-card li {
+    margin: 5px 0;
+}
+
+.twitter-widget-card>h2 {
+    margin: 20px 0;
+}
+
+.twitter-widget-card p {
+    margin: 20px 0;
+}
